@@ -26,7 +26,7 @@ export default new Vuex.Store({
     },
     TYPE () {
       if (this.state.start === true) {
-        for (this.state.i = 0; this.state.i < 100; this.state.i++) {
+        for (this.state.i; this.state.i < this.state.goods.length; this.state.i++) {
           switch (this.state.goods[this.state.i].type) {
             case 'T-shirt':
               this.state.TShirtGoods.push(this.state.goods[this.state.i])

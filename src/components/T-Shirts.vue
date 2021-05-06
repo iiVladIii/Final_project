@@ -5,7 +5,7 @@
     <h3>Футболки</h3>
     <div class="home1">
       <div class="goods">
-        <div class="goods_margin" v-for="TShirt in TShirts" :key='TShirt'>
+        <div class="goods_margin" v-for="TShirt in TShirts" :key='TShirt.id'>
           <router-link to="/ProductPage"> <div @click="loadProduct(TShirt.id)">
             <div class="image">
             <img v-bind:src="TShirt.photo" height="100%" width="100%">
@@ -21,6 +21,7 @@
       <router-view/>
     </div>
     </div>
+    <br><br>
   </div>
 </div>
 </template>

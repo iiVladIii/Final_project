@@ -23,7 +23,7 @@
           <div class="description_div">Модель(тип)<div class="description_div_text">: {{ product.model }}</div></div><br><br>
           <div class="description_div"> Сезон<div class="description_div_text">: {{ product.yearTime }}</div></div><br><br>
           <div class="description_div"> Артикул<div class="description_div_text">: {{ product.articul }}</div></div><br><br>
-          <div class="description_div">Страна-производитель<div class="description_div_text">: {{ product.country }}</div></div>
+          <div class="description_div">Страна-производитель<div class="description_div_text">: {{ product.country }}</div></div><br><br><br><br>
         </div>
       </div>
     </div>

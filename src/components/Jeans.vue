@@ -2,10 +2,10 @@
   <div>
     <div class="home">
       <br>
-      <h3>Футболки</h3>
+      <h3>Джинсы</h3>
       <div class="home1">
         <div class="goods">
-          <div class="goods_margin" v-for="JeansGood in JeansGoods" :key='JeansGood'>
+          <div class="goods_margin" v-for="JeansGood in JeansGoods" :key='JeansGood.id'>
             <router-link to="/ProductPage"><div @click="loadProduct(JeansGood.id)">
               <div class="image">
               <img v-bind:src="JeansGood.photo" height="100%" width="100%">
@@ -14,13 +14,14 @@
               <div class="discount_price"> {{ JeansGood.discount }} <div class="old_price"> {{ JeansGood.oldPrice }}</div></div>
               <div class="price">{{ JeansGood.price }}</div>
               <div class="brand_name">{{ JeansGood.brand }}</div>
-              <div class="name">{{ JeansGood.name }}</div> <div class="flag" v-if="JeansGood.discount">{{ JeansGood.discountPercent }}%</div>
+              <div class="name">{{ JeansGood.name }}</div><div class="flag" v-if="JeansGood.discount">{{ JeansGood.discountPercent }}%<br></div>
             </div>
             </div></router-link>
         </div>
         <router-view/>
       </div>
     </div>
+      <br><br>
   </div>
   </div>
 </template>

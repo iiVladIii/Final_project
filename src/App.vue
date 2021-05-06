@@ -74,15 +74,15 @@ export default {
     .Product_Page_Description_discount_price_text {
       .discount_price {
         text-align: left;
-        font-size: 20px;
+        font-size: 1.3vw;
         color: #BB181E;
-        margin-left: 5%;
+        margin-left: 3%;
       }
 
       .old_price {
         text-align: left;
         font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
+        font-size: 1vw;
         color: #888888;
         text-decoration: line-through;
         margin-left: 5%;
@@ -90,36 +90,37 @@ export default {
 
       .brand_name {
         text-align: left;
-        font-size: 15px;
+        font-size: 0.9vw;
         color: #858585;
       }
 
       .name {
         text-align: left;
-        font-size: 20px;
+        font-size: 1.3vw;
         color: #2F2F2F;
       }
 
       .price {
         text-align: left;
-        font-size: 20px;
+        font-size: 1.3vw;
         color: #BB181E;
       }
       .flag {
+        font-size: 1.2vw;
         float: right;
         background-color: #CC0007;
         color: #F7E6E7;
       }
       .cart {
-        margin-top: 10%;
+        margin-top: 5%;
         button {
           border: none;
           outline: none;
           background-color: #D22E30;
           color: white;
-          height: 45px;
+          height: 2.5vw;
           width: 35%;
-          font-size: 20px;
+          font-size: 1vw;
         }
         button:hover {
           background-color: #ff5555;
@@ -131,7 +132,7 @@ export default {
       .description {
         margin-top: 10%;
         .description_div {
-          font-size: 15px;
+          font-size: 0.9vw;
           color: #888888;
           float: left;
           .description_div_text {
@@ -147,13 +148,13 @@ export default {
 h3 {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: left;
-  font-size: 20px;
+  font-size: 1.5vw;
   margin-left: 5%;
 }
 .text {
   .discount_price {
     text-align: left;
-    font-size: 20px;
+    font-size: 1.3vw;
     color: #BB181E;
   }
 
@@ -161,31 +162,32 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 1%;
     float: right;
-    font-size: 15px;
+    font-size: 1vw;
     color: #888888;
     text-decoration: line-through;
   }
 
   .brand_name {
     text-align: left;
-    font-size: 14px;
+    font-size: 0.9vw;
     color: #858585;
   }
 
   .name {
     margin-top: 5%;
     text-align: left;
-    font-size: 15px;
+    font-size: 1vw;
     color: #2F2F2F;
   }
 
   .price {
     text-align: left;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-family: 'Montserrat', sans-serif;
     color: #3C3C3C;
   }
   .flag {
+    font-size: 1.2vw;
     float: right;
     background-color: #CC0007;
     color: #F7E6E7;
@@ -198,7 +200,6 @@ h3 {
 .home1 {
   margin-left: 15%;
   margin-right: 15%;
-  min-height: 1200px;
 }
 .goods {
   a {
@@ -209,9 +210,8 @@ h3 {
   }
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 38%;
   .goods_margin {
-    margin: 5% 5% 0 5%;
+    margin: 10% 5% 0 5%;
   }
 }
 
@@ -225,14 +225,15 @@ h3 {
 }
 
 #nav {
+  height: 2.5vw;
   .link {
-  height:36px;
-  width: 100px;
+  height:2.5vw;
+  width: 6vw;
   float: left
 }
   padding-left: 10%;
   a {
-    font-size: 15px;
+    font-size: 1vw;
     text-decoration: none;
     font-weight: bold;
     color: #717171;
